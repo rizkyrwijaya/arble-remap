@@ -26,20 +26,20 @@
 
         ARROW {
             bindings = <
- &bt BT_SEL 0    &kp F1    &kp F2    &kp F3     &kp F4  &kp F5  &kp F6    &kp F7    &kp F8  &kp F9    &kp F10   &kp F11    &kp F12           &trans  &trans  &trans
- &bt BT_SEL 1  &kp CAPS    &trans    &kp UP     &trans  &trans  &trans    &trans    &trans  &trans     &trans    &trans     &kp UP           &trans  &trans
- &bt BT_SEL 2    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp LEFT  &kp RIGHT  &rgb_ug RGB_TOG
-       &trans    &trans    &trans    &trans     &trans  &trans  &trans    &trans    &trans  &trans     &trans  &kp DOWN     &trans           &trans
+ &bt BT_SEL 0    &kp F1    &kp F2    &kp F3     &kp F4  &kp F5  &kp F6    &kp F7    &kp F8  &kp F9    &kp F10  &kp F11  &kp F12           &trans  &trans  &trans
+ &bt BT_SEL 1  &kp CAPS    &trans    &kp UP     &trans  &trans  &trans    &trans    &trans  &trans     &trans   &trans   &trans           &trans  &trans
+ &bt BT_SEL 2    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &trans   &trans  &rgb_ug RGB_TOG
+       &trans    &trans    &trans    &trans     &trans  &trans  &trans    &trans    &trans  &trans     &trans   &trans   &trans           &trans
        &trans    &trans    &trans    &trans     &trans  &trans  &trans
             >;
         };
 
         reset_boot {
             bindings = <
- &bt BT_SEL 0       &reset  &trans      &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans
- &bt BT_SEL 1  &bootloader  &trans      &trans  &trans        &trans  &out OUT_TOG  &trans  &out OUT_USB  &trans  &trans  &trans  &trans           &trans  &tog 3
- &bt BT_SEL 2       &trans  &trans      &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans  &trans  &trans  &rgb_ug RGB_TOG
-       &trans       &trans  &trans  &bt BT_CLR  &trans  &out OUT_BLE        &trans  &trans        &trans  &trans  &trans  &trans  &trans           &trans
+ &bt BT_SEL 0       &reset  &trans      &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans    &trans     &trans           &trans  &trans  &trans
+ &bt BT_SEL 1  &bootloader  &trans      &trans  &trans        &trans  &out OUT_TOG  &trans  &out OUT_USB  &trans  &trans    &trans     &kp UP           &trans  &tog 3
+ &bt BT_SEL 2       &trans  &trans      &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans  &kp LEFT  &kp RIGHT  &rgb_ug RGB_TOG
+       &trans       &trans  &trans  &bt BT_CLR  &trans  &out OUT_BLE        &trans  &trans        &trans  &trans  &trans  &kp DOWN     &trans           &trans
        &trans       &trans  &trans      &trans  &trans        &trans        &trans
             >;
         };
