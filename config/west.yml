@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: rizalfr
-      revision: arble
+      revision: jaykeeb
       import: app/west.yml
   self:
     path: config
