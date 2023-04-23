@@ -36,7 +36,7 @@
 
         reset_boot {
             bindings = <
- &bt BT_SEL 0       &reset  &trans      &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans    &trans     &trans           &trans  &trans  &trans
+ &bt BT_SEL 0       &sys_reset  &trans      &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans    &trans     &trans           &trans  &trans  &trans
  &bt BT_SEL 1  &bootloader  &trans      &trans  &trans        &trans  &out OUT_TOG  &trans  &out OUT_USB  &trans  &trans    &trans     &kp UP           &trans  &tog 3
  &bt BT_SEL 2       &trans  &trans      &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans  &kp LEFT  &kp RIGHT  &rgb_ug RGB_TOG
        &trans       &trans  &trans  &bt BT_CLR  &trans  &out OUT_BLE        &trans  &trans        &trans  &trans  &trans  &kp DOWN     &trans           &trans
